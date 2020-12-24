@@ -1,0 +1,21 @@
+Package: hyperfiner
+Title: Read JSON output from Hyperfine
+Version: 0.0.1
+Authors@R: 
+    person(given = "Marc",
+           family = "Paterno",
+           role = c("aut", "cre"),
+           email = "paterno@fnal.gov",
+           comment = c(ORCID = "0000-0003-0808-8388"))
+Description: Reads timing data from the JSON format of hyperfine.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports:
+    checkmate,
+    jsonlite,
+    tibble
+Suggests:
+    testthat
