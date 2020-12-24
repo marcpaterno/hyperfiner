@@ -19,3 +19,5 @@ Imports:
     tibble
 Suggests:
     testthat
+URL: https://github.com/marcpaterno/hyperfiner
+BugReports: https://github.com/marcpaterno/hyperfiner/issues
